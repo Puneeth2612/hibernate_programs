@@ -11,7 +11,14 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "student")
 public class Student {
-
+public Student()
+{
+	
+}
+	@Override
+public String toString() {
+	return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+}
 	public Student(String firstName, String lastName, String email) {
 
 		this.firstName = firstName;
