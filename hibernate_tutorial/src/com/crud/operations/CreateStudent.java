@@ -18,9 +18,9 @@ public class CreateStudent {
 
 		try {
 			// creating student object
-			Student student2 = new Student("Puneeth1", "Moola1", "puneethmoola@gmail.com4");
-			Student student3 = new Student("Puneeth2", "Moola2", "puneethmoola@gmail.com");
-			Student student4 = new Student("Puneeth3", "Moola3", "puneethmoola@gmail.com");
+			Student student2 = new Student("Puneeth1t", "Moola1v", "puneethmoola@gmail.com4");
+			Student student3 = new Student("Puneeth2t", "Moola2", "puneethmoola@gmail.com");
+			Student student4 = new Student("Puneeth3t", "Moola3", "puneethmoola@gmail.com");
 			// start a transaction
 			session.beginTransaction();
 			// save student object
